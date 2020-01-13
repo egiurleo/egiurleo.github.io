@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Quando");
+
+html, body {
+  padding: 0 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+}
+
+a {
+  /* font-weight: bold; */
+  color: #8e3370;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  /* font-weight: bold; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  padding: 1.5rem 0 0 0;
+}
+
+h1, h2 {
+  font-family: Quando;
+  /* color: #8e3370; */
+  color: #222;
+}
+
+.title .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 15rem;
+  margin-top: -.75rem;
+}
+
+.title .icon {
+  height: 1.75rem;
+  fill: #222;
+}
+
+.title .icon:hover {
+  fill: #8e3370;
+}
+
+.about {
+  margin-top: 2rem;
+}
+
+.projects {
+  margin-top: 3rem;
+}
+
+.projects h2 {
+  margin-bottom: .5rem;
+}
+
+.project .project-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project .project-title .year {
+  color: #222;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: -.1rem;
+  margin-left: .5rem;
+}
+
+.project p {
+  margin-top: -.5rem;
+}
+
+hr {
+  max-width: 5rem;
+  margin: 2.5rem auto;
+}
