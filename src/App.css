@@ -59,10 +59,11 @@ h1, h2 {
 
 .projects {
   margin-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .projects h2 {
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
 }
 
 .project .project-title {
