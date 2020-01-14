@@ -38,6 +38,24 @@ const data = {
       "year": 2019,
       "description": "My solutions to <a href=\"https://adventofcode.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Advent of Code 2019</a>, written in Ruby."
     },
+    {
+      "title": "Codecademy Go Cast",
+      "link": "https://podcasts.apple.com/us/podcast/codecademy-go-cast/id1450421834",
+      "year": 2019,
+      "description": "A podcast I hosted with an excellent coworker from Codecademy, <a href=\"https://jonsamp.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Jon Samp</a>, about creating the Codecademy mobile app."
+    },
+    {
+      "title": "The Stable Meow-age Problem",
+      "link": "https://glitch.com/edit/#!/stable-meowage-problem",
+      "year": 2018,
+      "description": "A high school workshop on the Stable Marriage Problem algorithm... featuring cats!"
+    },
+    {
+      "title": "Keyboard Interactions in App Inventor",
+      "link": "https://drive.google.com/file/d/0B8AUNoeCnCCASzUwMWtwWUhmN1E/view",
+      "year": 2017,
+      "description": "A paper I wrote as part of my undergraduate thesis about implementing keyboard interactions in App Inventor, a block-based Android app building tool."
+    },
   ]
 }
 

@@ -23,26 +23,24 @@ a:hover {
 }
 
 .title {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
-  background-color: white;
   padding: 1.5rem 0 0 0;
 }
 
 h1, h2 {
   font-family: Quando;
-  /* color: #8e3370; */
   color: #222;
 }
 
 .title .social {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  min-width: 15rem;
+  justify-content: space-between;
+  max-width: 15rem;
   margin-top: -.75rem;
 }
 
@@ -60,7 +58,7 @@ h1, h2 {
 }
 
 .projects {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .projects h2 {
@@ -81,11 +79,19 @@ h1, h2 {
   margin-left: .5rem;
 }
 
-.project p {
-  margin-top: -.5rem;
+.project .description {
+  margin-top: -.75rem;
 }
 
 hr {
-  max-width: 5rem;
+  max-width: 7rem;
   margin: 2.5rem auto;
+}
+
+.projects .featured {
+  margin-bottom: -.25rem;
+}
+
+.projects .remaining-projects {
+  margin-top: -1.75rem;
 }
