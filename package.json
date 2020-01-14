@@ -1,6 +1,6 @@
 {
   "main": "src/App.js",
-  "homepage": "http://egiurleo.github.io/website",
+  "homepage": "https://emilygiurleo.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
