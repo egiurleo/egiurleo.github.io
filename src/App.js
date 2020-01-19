@@ -2,6 +2,7 @@ import React from 'react';
 import Title from './Title';
 import About from './About';
 import Projects from './Projects';
+import Talks from './Talks';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Title />
       <About />
       <Projects />
+      <Talks />
     </div>
   );
 }

@@ -56,6 +56,14 @@ const data = {
       "year": 2017,
       "description": "A paper I wrote as part of my undergraduate thesis about implementing keyboard interactions in App Inventor, a block-based Android app building tool."
     },
+  ],
+  "talks": [
+    {
+      "title": "Onboarding Junior Engineers",
+      "link": "https://youtu.be/7TrKS8ZiTyI?t=3045",
+      "conference": "RubyConf 2019",
+      "description": "A 5-minute lightning talk about delivering feedback to new junior engineers on your team."
+    }
   ]
 }
 

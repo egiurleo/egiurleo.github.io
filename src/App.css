@@ -4,6 +4,7 @@ html, body {
   padding: 0 3rem;
   font-family: "Open Sans", sans-serif;
   color: #222;
+  padding-bottom: 4rem;
 }
 
 p {
@@ -57,22 +58,21 @@ h1, h2 {
   margin-top: 2rem;
 }
 
-.projects {
-  margin-top: 2rem;
-  padding-bottom: 4rem;
+.projects, .talks {
+  margin-top: 2.5rem;
 }
 
-.projects h2 {
+.projects h2, .talks h2 {
   margin-bottom: .25rem;
 }
 
-.project .project-title {
+.project .project-title, .talk .talk-title {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.project .project-title .year {
+.project .project-title .year, .talk .talk-title .conference {
   color: #222;
   font-weight: normal;
   font-size: 1rem;
@@ -80,19 +80,6 @@ h1, h2 {
   margin-left: .5rem;
 }
 
-.project .description {
+.project .description, .talk .description {
   margin-top: -.75rem;
-}
-
-hr {
-  max-width: 7rem;
-  margin: 2.5rem auto;
-}
-
-.projects .featured {
-  margin-bottom: -.25rem;
-}
-
-.projects .remaining-projects {
-  margin-top: -1.75rem;
 }
