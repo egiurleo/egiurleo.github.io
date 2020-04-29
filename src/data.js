@@ -42,7 +42,7 @@ const data = {
       "title": "Codecademy Go Cast",
       "link": "https://podcasts.apple.com/us/podcast/codecademy-go-cast/id1450421834",
       "year": 2019,
-      "description": "A podcast I hosted with an excellent coworker from Codecademy, <a href=\"https://jonsamp.dev\" target=\"_blank\" rel=\"noopener noreferrer\">Jon Samp</a>, about creating the Codecademy mobile app."
+      "description": "A podcast about creating the Codecademy mobile app."
     },
     {
       "title": "The Stable Meow-age Problem",
@@ -58,6 +58,18 @@ const data = {
     },
   ],
   "talks": [
+    {
+      "title": "Successfully Onboarding a Junior Engineer in Three Steps",
+      "link": "https://railsconf.com",
+      "conference": "RailsConf 2020, Couch Edition",
+      "description": "(Coming soon!) A talk about three steps you can follow to onboard a junior engineer to your team."
+    },
+    {
+      "title": "Ruby on Rails Podcast, Episode 316",
+      "link": "https://5by5.tv/rubyonrails/316",
+      "conference": "2020",
+      "description": "I went on the Ruby on Rails podcast to talk about my upcoming RailsConf talk, \"Successfully Onboarding a Junior Engineer in Three Steps\"."
+    },
     {
       "title": "Onboarding Junior Engineers",
       "link": "https://youtu.be/7TrKS8ZiTyI?t=3045",

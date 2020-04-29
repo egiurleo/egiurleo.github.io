@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Quando");
 
 html, body {
-  padding: 0 3rem;
+  padding: 1.25rem 3rem;
   font-family: "Open Sans", sans-serif;
   color: #222;
-  padding-bottom: 4rem;
 }
 
 p {
@@ -13,22 +12,15 @@ p {
 }
 
 a {
-  /* font-weight: bold; */
   color: #8e3370;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  /* font-weight: bold; */
 }
 
 .title {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-
   padding: 1.5rem 0 0 0;
 }
 
@@ -56,6 +48,12 @@ h1, h2 {
 
 .about {
   margin-top: 2rem;
+  /* margin-bottom: 3.5rem; */
+  max-width: 50rem;
+}
+
+.talks {
+  margin-bottom: 3rem;
 }
 
 .projects, .talks {
