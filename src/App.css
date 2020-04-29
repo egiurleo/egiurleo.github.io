@@ -20,6 +20,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.App {
+  max-width: 50rem;
+}
+
 .title {
   padding: 1.5rem 0 0 0;
 }
