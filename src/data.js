@@ -60,9 +60,9 @@ const data = {
   "talks": [
     {
       "title": "Successfully Onboarding a Junior Engineer in Three Steps",
-      "link": "https://railsconf.com",
+      "link": "https://railsconf.com/2020/video/emily-giurleo-successfully-onboarding-a-junior-engineer-in-three-steps",
       "conference": "RailsConf 2020, Couch Edition",
-      "description": "(Coming soon!) A talk about three steps you can follow to onboard a junior engineer to your team."
+      "description": "A talk about three steps you can follow to onboard a junior engineer to your team."
     },
     {
       "title": "Ruby on Rails Podcast, Episode 316",
