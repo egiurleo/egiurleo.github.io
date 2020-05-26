@@ -1,87 +1,117 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Quando");
-
-html, body {
-  padding: 1.25rem 3rem;
-  font-family: "Open Sans", sans-serif;
-  color: #222;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  color: #222;
-}
-
-a {
-  color: #8e3370;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.App {
-  max-width: 50rem;
-}
-
-.title {
-  padding: 1.5rem 0 0 0;
-}
-
-h1, h2 {
-  font-family: Quando;
-  color: #222;
-}
-
-.title .social {
+.Home {
+  height: 100%;
+  background-image: url('./images/background.jpg');
+  background-repeat: repeat;
+  background-size: 75rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 15rem;
-  margin-top: -.75rem;
-}
-
-.title .icon {
-  height: 1.75rem;
-  fill: #222;
-}
-
-.title .icon:hover {
-  fill: #8e3370;
-}
-
-.about {
-  margin-top: 2rem;
-  /* margin-bottom: 3.5rem; */
-  max-width: 50rem;
-}
-
-.talks {
-  margin-bottom: 3rem;
-}
-
-.projects, .talks {
-  margin-top: 2.5rem;
-}
-
-.projects h2, .talks h2 {
-  margin-bottom: .25rem;
-}
-
-.project .project-title, .talk .talk-title {
-  display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
-.project .project-title .year, .talk .talk-title .conference {
-  color: #222;
-  font-weight: normal;
-  font-size: 1rem;
-  margin-bottom: -.1rem;
-  margin-left: .5rem;
+.container {
+  margin: 2rem 0;
+  background-color: white;
+  width: 70%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem 2.75rem 2.75rem 2.75rem;
 }
 
-.project .description, .talk .description {
-  margin-top: -.75rem;
+.social-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social {
+  padding-top: 1rem;
+  display: flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+
+.text-container {
+  margin-left: 1.75rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  color: #3D415C;
+  font-size: 4.25rem;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  color: #3D415C;
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin-left: 5.5rem;
+}
+
+.about {
+  font-family: "Source Sans Pro";
+  color: #3D415C;
+  font-size: 1.5rem;
+  font-weight: 100;
+  width: 75%;
+  max-width: 40rem;
+  margin-top: 2.5rem;
+}
+
+.about a {
+  text-decoration: none;
+  color: #3D415C;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+.link-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6rem;
+}
+
+.projects {
+  font-family: "Playfair Display";
+  color: #3D415C;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.projects:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .text-container {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-container {
+    text-align: center;
+  }
+
+  .subtitle {
+    margin-left: 0;
+    margin-top: .5rem;
+  }
+
+  .link-container, .text-container {
+    margin-top: 2rem;
+  }
+
+  .link-container {
+    justify-content: center;
+  }
 }
