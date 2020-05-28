@@ -3,7 +3,7 @@
     "title": "Successfully Onboarding a Junior Engineer in Three Steps",
     "link": "https://railsconf.com/2020/video/emily-giurleo-successfully-onboarding-a-junior-engineer-in-three-steps",
     "year": 2020,
-    "description": "A talk at RailsConf 2020 about successfully onboarding junior engineers in three steps, with the goals of building their trust, instilling confidence in their technical abilities, and enabling them to be an autonomous contributor to your team.",
+    "description": "My talk for RailsConf 2020, which was canceled and reimagined as an online conference due to Covid19.",
     "image": "RailsConf2020.png"
   },
   {
@@ -17,7 +17,7 @@
     "title": "FreeFrom Compensation Compass",
     "link": "https://compass.freefrom.org",
     "year": 2019,
-    "description": "FreeFrom is an organization that helps survivors of gender-based violence achieve financial security. As a volunteer with Ragtag, I helped build their new compensation tool, which allows survivors of gender-based violence in all 50 states learn what forms of financial compensation that are available to them. Using Ruby on Rails, I built an API backend and CMS that allows the FreeFrom staff to update and maintain their site.",
+    "description": "A web app that helps survivors of gender-based violence acquire financial compensation. Built with Ruby on Rails and React.",
     "image": "CompensationCompass.png"
   },
   {
@@ -45,7 +45,7 @@
     "title": "Keyboard Interactions in App Inventor",
     "link": "https://drive.google.com/file/d/0B8AUNoeCnCCASzUwMWtwWUhmN1E/view",
     "year": 2017,
-    "description": "A paper I wrote as part of my undergraduate thesis about implementing keyboard interactions in App Inventor, a block-based Android app building tool.",
+    "description": "My undergraduate thesis paper about implementing keyboard interactions in App Inventor, a block-based Android app building tool.",
     "image": "AppInventor.png"
   }
 ]
