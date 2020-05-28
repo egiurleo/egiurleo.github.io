@@ -8,7 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 
 const routing = (
   <Router base="/">
-   <div style={{ height: "100%", width: "100%" }}>
+   <div style={{ height: "100%", width: "100%", display: "flex", flexDirection: "column" }}>
       <Route exact path="/" component={Home} />
       <Route path="/projects" component={Projects} />
     </div>
