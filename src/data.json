@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Successfully Onboarding a Junior Engineer in Three Steps",
+    "link": "https://railsconf.com/2020/video/emily-giurleo-successfully-onboarding-a-junior-engineer-in-three-steps",
+    "year": 2020,
+    "description": "A talk at RailsConf 2020 about successfully onboarding junior engineers in three steps, with the goals of building their trust, instilling confidence in their technical abilities, and enabling them to be an autonomous contributor to your team.",
+    "image": "RailsConf2020.png"
+  },
+  {
+    "title": "Ruby on Rails Podcast, Episode 316",
+    "link": "https://podcasts.apple.com/us/podcast/316-mongodb-onboarding-junior-developers-emily-giurleo/id840890158?i=1000473070894",
+    "year": 2020,
+    "description": "I went on the Ruby on Rails podcast to talk about my upcoming RailsConf talk, \"Successfully Onboarding a Junior Engineer in Three Steps\"",
+    "image": "RoRPodcast.png"
+  },
+  {
+    "title": "FreeFrom Compensation Compass",
+    "link": "https://compass.freefrom.org",
+    "year": 2019,
+    "description": "FreeFrom is an organization that helps survivors of gender-based violence achieve financial security. As a volunteer with Ragtag, I helped build their new compensation tool, which allows survivors of gender-based violence in all 50 states learn what forms of financial compensation that are available to them. Using Ruby on Rails, I built an API backend and CMS that allows the FreeFrom staff to update and maintain their site.",
+    "image": "CompensationCompass.png"
+  },
+  {
+    "title": "Advent of Code 2019",
+    "link": "https://github.com/egiurleo/advent-of-code-2019",
+    "year": 2019,
+    "description": "My solutions to Advent of Code 2019, written in Ruby.",
+    "image": "AdventOfCode2019.png"
+  },
+  {
+    "title": "Codecademy Go Cast",
+    "link": "https://podcasts.apple.com/us/podcast/codecademy-go-cast/id1450421834",
+    "year": 2019,
+    "description": "A podcast about creating the Codecademy mobile app.",
+    "image": "CodecademyGoCast.png"
+  },
+  {
+    "title": "Stable Meowage Problem",
+    "link": "https://glitch.com/edit/#!/stable-meowage-problem",
+    "year": 2018,
+    "description": "A high school workshop on the Stable Marriage Problem algorithm... featuring cats!",
+    "image": "StableMeowage.png"
+  },
+  {
+    "title": "Keyboard Interactions in App Inventor",
+    "link": "https://drive.google.com/file/d/0B8AUNoeCnCCASzUwMWtwWUhmN1E/view",
+    "year": 2017,
+    "description": "A paper I wrote as part of my undergraduate thesis about implementing keyboard interactions in App Inventor, a block-based Android app building tool.",
+    "image": "AppInventor.png"
+  }
+]

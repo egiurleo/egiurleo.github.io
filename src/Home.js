@@ -1,5 +1,5 @@
 import React from "react";
-import { Email, Github, Twitter } from "./Social";
+import Social from "./Social";
 import "./App.css";
 
 function Home() {
@@ -7,11 +7,7 @@ function Home() {
     <div className="Home">
       <div className="container">
         <div className="social-container">
-          <div className="social">
-            <Twitter />
-            <Github />
-            <Email />
-          </div>
+          <Social />
         </div>
 
         <div className="text-container">
