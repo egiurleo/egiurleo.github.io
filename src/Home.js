@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Social from "./Social";
 import "./App.css";
 
@@ -38,9 +39,9 @@ function Home() {
         </div>
 
         <div className="link-container">
-          <a href="/projects" className="projects">
+          <Link to="/projects" className="projects">
             Check out my projects &#8611;
-          </a>
+          </Link>
         </div>
       </div>
     </div>

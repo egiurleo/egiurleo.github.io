@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import { Route, HashRouter as Router } from "react-router-dom";
 import "./index.css";
 import Home from "./Home";
 import Projects from "./Projects";
 import * as serviceWorker from "./serviceWorker";
 
 const routing = (
-  <Router>
-    <div style={{ height: "100%", width: "100%" }}>
+  <Router base="/">
+   <div style={{ height: "100%", width: "100%" }}>
       <Route exact path="/" component={Home} />
       <Route path="/projects" component={Projects} />
     </div>
