@@ -1,5 +1,12 @@
 [
   {
+    "title": "Your First Open Source Contribution",
+    "link": "https://codeland-2020.emilygiurleo.dev",
+    "year": 2020,
+    "description": "A workshop for the Codeland 2020 conference where attendees learned about the history of open source and made their very first open source contirubtions!",
+    "image": "Codeland2020.png"
+  },
+  {
     "title": "Successfully Onboarding a Junior Engineer in Three Steps",
     "link": "https://railsconf.com/2020/video/emily-giurleo-successfully-onboarding-a-junior-engineer-in-three-steps",
     "year": 2020,
