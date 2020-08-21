@@ -1,0 +1,44 @@
+.new-home {
+  display: flex;
+  height: 100%;
+}
+
+.new-home .sidebar {
+  width: 15rem; 
+  background-image: url('../images/sidebar.png');
+  background-repeat: repeat;
+  background-size: 77rem;
+}
+
+.new-home .content {
+  padding: 3rem 5rem;
+}
+
+.new-home .content h1 {
+  font-family: "PT Mono";
+  letter-spacing: -0.022em;
+}
+
+.new-home .content h1 .cursor {
+  animation: blink 1s step-start 0s infinite, color 6s step-start infinite;
+}
+
+.new-home .about {
+  max-width: 70rem;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@keyframes color {
+  0% { color: #6E8897; }
+  16.7% { color: #A6C6D0; }
+  33.4% { color: #A5C5B7; }
+  50.1% { color: #F1C7C9; }
+  66.8% { color: #EED7AF; }
+  83.5% { color: #9C9BA3; }
+  100% { color: #6E8897; }
+}

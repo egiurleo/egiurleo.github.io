@@ -3,13 +3,14 @@ import ReactDOM from "react-dom";
 import { Route, HashRouter as Router } from "react-router-dom";
 import "./index.css";
 import Home from "./Home";
+import NewHome from "./NewHome";
 import Projects from "./Projects";
 import * as serviceWorker from "./serviceWorker";
 
 const routing = (
   <Router base="/">
    <div style={{ height: "100%", width: "100%", display: "flex", flexDirection: "column" }}>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={NewHome} />
       <Route path="/projects" component={Projects} />
     </div>
   </Router>
