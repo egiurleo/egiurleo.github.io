@@ -1,4 +1,5 @@
 import React from "react";
+import Dev from "./Dev";
 import Email from "./Email";
 import Github from "./Github";
 import Twitter from "./Twitter";
@@ -7,9 +8,10 @@ import "./styles.css";
 function Social() {
   return (
     <div className="social">
-      <Twitter />
-      <Github />
       <Email />
+      <Github />
+      <Twitter />
+      <Dev />
     </div>
   );
 }

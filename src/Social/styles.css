@@ -1,5 +1,7 @@
 .social {
   display: flex;
-  width: 8rem;
+  /* flex-direction: column;
+  height: 10rem; */
+  width: 10rem;
   justify-content: space-between;
 }
