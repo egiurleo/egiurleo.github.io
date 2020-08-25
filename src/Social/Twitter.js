@@ -1,6 +1,6 @@
 import React from "react";
 
-function Twitter() {
+function Twitter({ size }) {
   return (
     <a
       href="https://twitter.com/emilygiurleo"
@@ -9,8 +9,8 @@ function Twitter() {
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
+        width={size}
+        height={size}
         viewBox="0 0 24 24"
         fill="#6E8897"
       >

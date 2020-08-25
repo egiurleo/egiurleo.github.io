@@ -1,7 +1,9 @@
 .social {
   display: flex;
-  /* flex-direction: column;
-  height: 10rem; */
-  width: 10rem;
+  position: absolute;
+  height: 12rem;
+  flex-direction: column;
   justify-content: space-between;
+  right: 3.5rem;
+  top: 3rem;
 }

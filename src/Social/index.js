@@ -5,12 +5,12 @@ import Github from "./Github";
 import Twitter from "./Twitter";
 import "./styles.css";
 
-function Social() {
+function Social({ size }) {
   return (
     <div className="social">
-      <Email />
-      <Github />
-      <Twitter />
+      <Email size={size} />
+      <Github size={size} />
+      <Twitter size={size} />
       <Dev />
     </div>
   );

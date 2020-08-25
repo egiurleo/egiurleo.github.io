@@ -7,7 +7,7 @@
   width: 20%;
   background-image: url('../images/sidebar.png');
   background-repeat: repeat;
-  background-size: 77rem;
+  background-size: 75rem;
 }
 
 .new-home .content {
@@ -22,6 +22,7 @@
   font-style: normal;
   font-weight: normal;
   margin: 0;
+  margin-top: 2rem;
 }
 
 .new-home .content h2 {
@@ -39,13 +40,12 @@
   margin: 0;
 }
 
-
 .new-home .content h1 .cursor {
   animation: blink 1s step-start 0s infinite, color 6s step-start infinite;
 }
 
 .new-home .about {
-  margin: 3rem 0;
+  margin: 3.5rem 0;
   max-width: 51rem;
   font-size: 1.5rem;
   line-height: 1.35;
@@ -65,21 +65,21 @@
 }
 
 .new-home .projects .project img{
-  width: 13rem;
+  width: 12rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   margin-right: 1.5rem;
 }
 
-.new-home .projects .project .description {
-  font-size: 1.2rem;
+.new-home .projects .project .description p { 
+  font-size: 1.1rem;
 }
 
-.new-home .social-menu {
+/* .new-home .social-menu {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1rem;
-}
+} */
 
 @media (max-width: 800px) {
   .new-home .sidebar {
