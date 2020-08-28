@@ -7,7 +7,7 @@
   width: 20%;
   background-image: url('../images/sidebar.png');
   background-repeat: repeat;
-  background-size: 75rem;
+  background-size: 90rem;
 }
 
 .new-home .content {
@@ -88,6 +88,10 @@
   .new-home .projects .project img{
     width: 15rem;
     margin-bottom: 1rem;
+  }
+
+  .new-home .content {
+    padding: 1rem 2rem;
   }
 }
 

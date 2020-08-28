@@ -7,11 +7,13 @@ import "./styles.css";
 
 function Social({ size }) {
   return (
-    <div className="social">
-      <Email size={size} />
-      <Github size={size} />
-      <Twitter size={size} />
-      <Dev />
+    <div className="social-container">
+      <div className="social">
+        <Email size={size} />
+        <Github size={size} />
+        <Twitter size={size} />
+        <Dev />
+      </div>
     </div>
   );
 }

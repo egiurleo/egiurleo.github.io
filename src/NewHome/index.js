@@ -7,11 +7,9 @@ import "./styles.css";
 function NewHome() {
   return (
     <div className="new-home">
-      <div className="social-menu">
-        <Social size={40}/>
-      </div>
       <div className="sidebar"></div>
       <div className="content">
+        <Social size={40}/>
         <h1 className="title">
           Emily Giurleo<span className="cursor">_</span>
         </h1>
