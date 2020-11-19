@@ -2,15 +2,36 @@ html, body {
   color: #3D415C;
 }
 
+h2 {
+  font-family: "PT Mono";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-family: "Hind";
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
 p {
-  font-family: "Source Sans Pro";
+  font-family: "Hind";
   font-weight: 400;
   font-size: 1.33rem;
+  line-height: 1.7;
 }
 
 a, a:active, a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+p a, p a:active, p a:visited {
+  color: #6e8896;
 }
 
 a:hover {

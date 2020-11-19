@@ -1,0 +1,22 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.projects .project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5rem;
+}
+
+.projects .project img{
+  width: 17rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  margin-right: 1.5rem;
+}
+
+.projects .project p { 
+  font-size: 1.1rem;
+  margin: .75rem 0 0 0;
+}
