@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-function Header() {
+function Header({ activePage }) {
   return (
     <div className="header">
       <h1 className="title">
@@ -11,12 +11,12 @@ function Header() {
       </h1>
 
       <div className="nav">
-        <p>
+        <p className={activePage === "projects" ? "active" : ""}>
           <a href="/projects" target="_self">
             projects
           </a>
         </p>
-        <p>
+        <p className={activePage === "speaking" ? "active" : ""}>
           <a href="/speaking" target="_self">
             speaking
           </a>

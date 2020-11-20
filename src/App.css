@@ -2,27 +2,39 @@ html, body {
   color: #3D415C;
 }
 
-h2 {
-  font-family: "PT Mono";
-  font-size: 2.25rem;
+h1 {
+  font-family: "DM Mono";
+  letter-spacing: -0.022em;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: normal;
   margin: 0;
-  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "DM Mono";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 2.5rem;
+  /* font-weight: 300; */
+  display: none;
 }
 
 h3 {
-  font-family: "Hind";
+  font-family: "Source Sans Pro";
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0;
 }
 
 p {
-  font-family: "Hind";
+  font-family: "Source Sans Pro";
   font-weight: 400;
-  font-size: 1.33rem;
+  font-size: 1.3rem;
   line-height: 1.7;
+  margin: 0;
 }
 
 a, a:active, a:visited {

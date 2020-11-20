@@ -6,12 +6,12 @@ import "./styles.css";
 
 function Speaking() {
   return (
-    <Container>
+    <Container activePage="speaking">
       <h2>Speaking</h2>
       <div className="speaking">
         {data.speaking.map((talk) => (
           <div className="talk" key={talk.title}>
-            <img src={`/images/${talk.image}`} alt={talk.title} />
+            {/* <img src={`/images/${talk.image}`} alt={talk.title} /> */}
             <div className="talk-container">
               <h3>{talk.title}</h3>
               <p>{talk.description}</p>

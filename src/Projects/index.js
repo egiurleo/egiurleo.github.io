@@ -6,13 +6,13 @@ import "./styles.css";
 
 function Projects() {
   return (
-    <Container>
-      <h2>Projects</h2>
+    <Container activePage="projects">
+      {/* <h2>Projects</h2> */}
       <div className="projects">
         {data.projects.map((project) => {
           return (
             <div className="project" key={project.title}>
-              <img src={`/images/${project.image}`} alt={project.title} />
+              {/* <img src={`/images/${project.image}`} alt={project.title} /> */}
               <div className="project-text-container">
                   <h3>{project.title}</h3>
                 <p
