@@ -1,0 +1,33 @@
+:root {
+  --header-width: calc((20px + (61 - 20) * ((100vw - 300px) / (1600 - 300))) *.58 * 20);
+}
+
+.header .typewriter h1 {
+  animation:
+    expand 2s step-start;
+  animation-fill-mode: forwards;
+}
+
+@keyframes expand {
+  0% { width: 0; }
+  5% { width: calc(var(--header-width) * .05); }
+  10% { width: calc(var(--header-width) * .1); }
+  15% { width: calc(var(--header-width) * .15); }
+  20% { width: calc(var(--header-width) * .20); }
+  25% { width: calc(var(--header-width) * .25); }
+  30% { width: calc(var(--header-width) * .30); }
+  35% { width: calc(var(--header-width) * .35); }
+  40% { width: calc(var(--header-width) * .40); }
+  45% { width: calc(var(--header-width) * .45); }
+  50% { width: calc(var(--header-width) * .50); }
+  55% { width: calc(var(--header-width) * .55); }
+  60% { width: calc(var(--header-width) * .60); }
+  65% { width: calc(var(--header-width) * .65); }
+  70% { width: calc(var(--header-width) * .70); }
+  75% { width: calc(var(--header-width) * .75); }
+  80% { width: calc(var(--header-width) * .80); }
+  85% { width: calc(var(--header-width) * .85); }
+  90% { width: calc(var(--header-width) * .90); }
+  95% { width: calc(var(--header-width) * .95); }
+  100% { width: calc(var(--header-width)); }
+}

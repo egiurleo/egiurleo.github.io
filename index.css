@@ -1,0 +1,126 @@
+:root {
+  --h1-font-size: calc(20px + (61 - 20) * ((100vw - 300px) / (1600 - 300)));
+  --h2-font-size: calc(16px + (28 - 16) * ((100vw - 300px) / (1600 - 300)));
+  --paragraph-font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  --text-color: #0E153E;
+  --link-color: #bd1550;
+  --cursor-width: calc(100vw*.03);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  color: var(--text-color);
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: var(--paragraph-font-size);
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: "DM Mono";
+  letter-spacing: -0.022em;
+  font-size: var(--h1-font-size);
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Source Sans Pro";
+  font-size: var(--h2-font-size);
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  margin: 1.3rem 0;
+}
+
+a, a:active, a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+svg {
+  fill: var(--link-color);
+}
+
+body {
+  max-width: 35rem;
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.links {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 100px));
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+
+.links p:first-child {
+  place-self: flex-end;
+}
+
+.links p:last-child {
+  text-align: left;
+}
+
+.links a {
+  text-decoration: underline;
+}
+
+.links p {
+  margin: 0;
+  margin-bottom: 0.1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .typewriter {
+  position: relative;
+  padding-right: var(--cursor-width);
+}
+
+.header .typewriter h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+.header .typewriter .cursor {
+  position: absolute;
+  right: 0;
+  bottom: 0.3rem;
+  width: var(--cursor-width);
+  height: calc(var(--cursor-width) * .2);
+  animation:
+    blinking-cursor .75s step-start infinite,
+    rainbow-cursor 3s step-start infinite;
+}
+
+@keyframes blinking-cursor {
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes rainbow-cursor {
+  0% { background-color: #bd1550; }
+  25% { background-color: #e97f02; }
+  50% { background-color: #f8ca00; }
+  75% { background-color: #490a3d; }
+  100% { background-color: #bd1550; }
+}

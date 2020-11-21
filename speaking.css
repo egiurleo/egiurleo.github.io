@@ -1,0 +1,58 @@
+:root {
+  --header-width: calc((20px + (61 - 20) * ((100vw - 300px) / (1600 - 300))) *.58 * 8);
+  --talk-paragraph-padding: .75rem;
+  --svg-size: 30px;
+}
+
+.header .typewriter h1 {
+  animation:
+    expand .8s step-start;
+  animation-fill-mode: forwards;
+}
+
+hr {
+  margin: 2rem 0 3rem 0;
+  opacity: .3;
+}
+
+.talk {
+  margin-bottom: 3rem;
+}
+
+.talk p {
+  margin: 0;
+  margin-top: var(--talk-paragraph-padding);
+}
+
+.talk .chips {
+  margin-top: var(--talk-paragraph-padding);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.talk .chip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 20rem;
+  margin-right: 1rem;
+}
+
+.talk .chip svg {
+  min-width: var(--svg-size);
+  min-height: var(--svg-size);
+  margin-left: .25rem;
+}
+
+@keyframes expand {
+  0% { width: 0; }
+  12.5% { width: calc(var(--header-width) * .125); }
+  25% { width: calc(var(--header-width) * .25); }
+  37.5% { width: calc(var(--header-width) * .375); }
+  50% { width: calc(var(--header-width) * .50); }
+  62.5% { width: calc(var(--header-width) * .625); }
+  75% { width: calc(var(--header-width) * .75); }
+  87.5% { width: calc(var(--header-width) * .875); }
+  100% { width: calc(var(--header-width)); }
+}
