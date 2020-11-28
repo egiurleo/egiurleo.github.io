@@ -2,7 +2,7 @@ SPEAKING = [
   {
     title: "The Bug That Forced Me to Understand Memory Compaction",
     description:
-      "A story about a user-reported bug that led me to learn all about memory management in Ruby, including how memory is allocated, Ruby's garbag collection algorithm, and finally, what memory compaction is all about!",
+      "A story about a user-reported bug that led me to learn all about memory management in Ruby, including how memory is allocated, Ruby's garbage collection algorithm, and finally, what memory compaction is all about!",
     links: [
       {
         text: "slides",
@@ -34,7 +34,7 @@ SPEAKING = [
   {
     title: "Successfully Onboarding a Junior Engineer in Three Steps",
     description:
-      "A talk about onboarding junior engineers with the with the goals of building their trust, instilling confidence in their technical abilities, and enabling them to be an autonomous contributor to your team.",
+      "A talk about onboarding junior engineers with the goals of building their trust, instilling confidence in their technical abilities, and enabling them to be autonomous contributors on your team.",
     links: [
       {
         text: "railsconf 2020 recording",
