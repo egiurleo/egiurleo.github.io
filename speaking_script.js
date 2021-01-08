@@ -5,6 +5,14 @@ SPEAKING = [
       "A story about a user-reported bug that led me to learn all about memory management in Ruby, including how memory is allocated, Ruby's garbage collection algorithm, and finally, what memory compaction is all about!",
     links: [
       {
+        text: "rubyconf 2020 recording",
+        url: "https://www.youtube.com/watch?v=GlpZPv1bp4g"
+      },
+      {
+        text: "nyc.rb recording",
+        url: "https://www.youtube.com/watch?v=1cj8N6azmKUg"
+      },
+      {
         text: "slides",
         url:
           "https://docs.google.com/presentation/d/1VmJyyM9dY5clrlCj8hkzkQY8DYZYM-HGYIBl5JAhUhU/edit#slide=id.g540449f56d_2_449",
@@ -47,6 +55,10 @@ SPEAKING = [
         date: "Apr 2020",
         url:
           "https://podcasts.apple.com/us/podcast/316-mongodb-onboarding-junior-developers-emily-giurleo/id840890158?i=1000477487494",
+      },
+      {
+        text: "ruby rogues podcast, ruby 482",
+        url: "https://podcasts.apple.com/us/podcast/ruby-482-successfully-onboarding-junior-engineer-in/id1237406856?i=10005038794324",
       },
       {
         text: "slides",
