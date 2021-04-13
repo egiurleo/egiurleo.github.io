@@ -1,5 +1,20 @@
 SPEAKING = [
   {
+    title: "Five Errors You Encounter when Upgrading Your Ruby Gems",
+    description:
+      "Sometimes, upgrading your gems can cause errors in your application. These errors pop up when you're least expecting them, and they can often be categorized into common groups... kind of like Pokemon! In this talk, I discuss five types of errors I've seen while upgrading dependencies, as well as the techniques (or \"moves\") that I've used to solve them.",
+    links: [
+      {
+        text: "wnb.rb recording",
+        url: "https://www.youtube.com/watch?v=oBbsBLtXYRM",
+      },
+      {
+        text: "slides",
+        url: "https://docs.google.com/presentation/d/183ExC_6BEVV9L_E7jFbZDRK3g2S7RNaWuk_ENgnf8C4/edit#slide=id.p",
+      },
+    ]
+  },
+  {
     title: "The Bug That Forced Me to Understand Memory Compaction",
     description:
       "A story about a user-reported bug that led me to learn all about memory management in Ruby, including how memory is allocated, Ruby's garbage collection algorithm, and finally, what memory compaction is all about!",
